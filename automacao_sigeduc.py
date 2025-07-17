@@ -295,7 +295,7 @@ def main():
     DB_NAME = 'gti'
     DB_USER = 'gti'
     DB_PASSWORD = '1p2f3p4f@postgres'
-    DB_HOST = '192.168.137.158:3306'
+    DB_HOST = '192.168.137.158'
     DB_PORT = '5432'
 
     conn, cursor = conectar_banco_dados_pg(DB_NAME, DB_USER, DB_PASSWORD, DB_HOST, DB_PORT)
